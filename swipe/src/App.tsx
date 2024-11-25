@@ -14,7 +14,6 @@ import { useEffect } from "react";
 
 export default function App() {
   const appState = useSelector((state: RootState) => state);
-  console.log(import.meta.env.VITE_GENAIKEY, ">>>>>>>>>");
   return (
     <>
       <Routes>
